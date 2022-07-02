@@ -1,0 +1,60 @@
+Vinayak Pandey12:29 PM
+## db-[99:101]-node.example.com
+[centos]
+172.31.3.14
+[ubuntu]
+#172.31.47.95 ansible_user=ubuntu
+172.31.2.223 ansible_user=ubuntu
+Vinayak Pandey12:37 PM
+https://www.cloudbees.com/blog/getting-started-quickly-with-ansible-ad-hoc-commands
+Vinayak Pandey12:38 PM
+https://github.com/vinycoolguy2015/deveopdemo
+Vinayak Pandey12:41 PM
+https://github.com/vinycoolguy2015/deveopdemo
+Vinayak Pandey12:45 PM
+playbook_v1.yaml 
+Rishabh Saxena12:47 PM
+done.
+Farhan Husain12:47 PM
+done
+Vinayak Pandey12:54 PM
+ansible-playbook playbook_v1.yaml
+Rishabh Saxena1:03 PM
+success.
+You1:03 PM
+done
+Vinayak Pandey1:05 PM
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_conditionals.html
+Vinayak Pandey1:06 PM
+:set paste
+gg
+30dd
+Vinayak Pandey1:12 PM
+curl localhost
+Vinayak Pandey1:25 PM
+sudo systemctl status httpd
+sudo systemctl status apache2
+Vinayak Pandey1:33 PM
+uptime
+/proc/uptime
+Vinayak Pandey1:34 PM
+sudp cat /proc/uptime
+Vinayak Pandey1:36 PM
+sed
+Vinayak Pandey1:38 PM
+sudo cat /var/www/html/index.html
+Vinayak Pandey1:48 PM
+/etc/ansible/hosts
+Vinayak Pandey1:51 PM
+curl localhost:8080
+Vinayak Pandey1:52 PM
+/etc/httpd/conf/httpd.conf
+Rishabh Saxena1:57 PM
+bhai mute krlo baki k log, bht disturbance aara h
+Vinayak Pandey2:10 PM
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_error_handling.html
+Vinayak Pandey2:12 PM
+/Listen
+Vinayak Pandey2:19 PM
+https://blog.opstree.com/2019/11/19/error-handling-in-ansible/
+hub-ngas-efa
