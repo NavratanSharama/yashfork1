@@ -48,4 +48,31 @@ Vinayak Pandey1:08 PM
 43.204.145.77
 Vinayak Pandey1:10 PM
 https://galaxy.ansible.com
+Vinayak Pandey1:13 PM
+ansible-galaxy install kmonticolo.ansible_os_hardening
+Vinayak Pandey1:15 PM
+vi os_hardening.yaml
+- hosts: localhost
+  roles:
+    - dev-sec.os-hardening
+  vars:
+    sysctl_overwrite:
+      # Enable IPv4 traffic forwarding.
+      net.ipv4.ip_forward: 1
+ansible-playbook os_hardening.yaml
+Vinayak Pandey1:24 PM
+https://galaxy.ansible.com/kmonticolo/ansible-os-hardening
+Vinayak Pandey1:29 PM
+become: yes
+Vinayak Pandey1:31 PM
+https://galaxy.ansible.com/anthcourtney/cis-amazon-linux
+Vinayak Pandey1:37 PM
+1- Make index.html as template
+https://www.linuxtechi.com/configure-use-ansible-jinja2-templates/
+Vinayak Pandey1:39 PM
+https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-10-on-ubuntu-20-04
+Vinayak Pandey1:43 PM
+abc@gmail.com
+abc+id1@gmail.com
+abc+id2@gmail.com
 hub-ngas-efa
