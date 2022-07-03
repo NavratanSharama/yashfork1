@@ -1,0 +1,51 @@
+Vinayak Pandey11:47 AM
+/tmp/pass.txt
+ansible-playbook playbook_v7.yaml --vault-id /tmp/pass.txt
+Vinayak Pandey11:51 AM
+Ubuntu's IP:: Deepti 43.204.145.77
+Shubham 15.206.194.180
+Navratan 13.233.156.3
+Vinayak Pandey12:08 PM
+https://www.learnitguide.net/2018/02/ansible-roles-explained-with-examples.html  
+shubham12:10 PM
+"/usr/bin/sed -i 's/80/8080/g' /etc/httpd/conf/httpd.conf"
+Vinayak Pandey12:13 PM
+https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-18-04-quickstart
+Vinayak Pandey12:16 PM
+sudo yum remove -y httpd && sudo rm -rf /var/www/html/&
+sudo apt purge apache2
+Vinayak Pandey12:18 PM
+sudo ansible-galaxy init /etc/ansible/roles/apache --offline
+Vinayak Pandey12:20 PM
+sudo ls /etc/ansible/roles/apache
+After it run sudo vi /etc/ansible/ansible.cfg and uncomment roles_path    = /etc/ansible/roles
+Vinayak Pandey12:30 PM
+.j2
+Vinayak Pandey12:33 PM
+.yml
+Vinayak Pandey12:37 PM
+at apache.yaml 
+- hosts: all
+  become: yes
+  roles:
+    - apache
+Vinayak Pandey12:38 PM
+ansible-playbook apache.yaml --vault-id=/tmp/pass.txt
+Vinayak Pandey12:52 PM
+/etc/ansible/roles
+Vinayak Pandey12:56 PM
+- hosts: all
+  become: yes
+  roles:
+    - apache
+Vinayak Pandey12:57 PM
+ansible-playbook roles.yaml --vault-id=/tmp/pass.txt
+Vinayak Pandey12:59 PM
+vi /tmp/pass.txt
+Vinayak Pandey1:01 PM
+sudo vi /etc/ansible/roles/apache/tasks/main.yml
+Vinayak Pandey1:08 PM
+43.204.145.77
+Vinayak Pandey1:10 PM
+https://galaxy.ansible.com
+hub-ngas-efa
